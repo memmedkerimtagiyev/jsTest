@@ -526,7 +526,7 @@
 // console.log(yaz);
 
 let word =
-  "    Men bu gun Bakiya gedirem ki, yaxsi dincelim. Gelende kime ne alim? kiminse ureyi nesse istese ozu alsin...    ";
+  "Men bu gun Bakiya gedirem ki, yaxsi dincelim. Gelende kime ne alim? kiminse ureyi nesse istese ozu alsin...";
 
 // let yazi = word;
 
@@ -538,14 +538,18 @@ let word =
 
 // yazi = word.trim();
 
-function boyuk(word) {
-  let arr = [];
-  for (let i = 0; i < word.length; i++) {
-    if (word[i] === word[i].toLocaleUpperCase() && word[i] !== " ") {
-      arr.push(word[i]);
-    }
-  }
-  console.log(arr);
-}
+// function boyuk(word) {
+//   let arr = [];
+//   for (let i = 0; i < word.length; i++) {
+//     if (word[i] === word[i].toLocaleUpperCase() && word[i] !== " ") {
+//       arr.push(word[i]);
+//     }
+//   }
+//   console.log(arr);
+// }
 
-boyuk(word);
+// boyuk(word);
+
+// function say(word){
+
+// }
